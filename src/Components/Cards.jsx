@@ -9,7 +9,7 @@ const Cards = () => {
         .then(res=> res.json())
         .then(data => setData(data.courses))
     },[])
-    console.log(data);
+    // console.log(data);
     return (
         <div className='grid grid-cols-3 gap-4 w-3/4'>
             {
