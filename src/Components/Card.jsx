@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import doller from '../assets/dollar-sign 1.png'
 import frame from '../assets/Frame.png'
-const Card = ({cards}) => {
+const Card = ({cards,handleBtn}) => {
     const {title,img,description,credit,price} = cards;
     return (
         <div className="p-4 bg-[#FFF] rounded-lg">
@@ -18,7 +18,7 @@ const Card = ({cards}) => {
                 <p className='text-[#1C1B1B99]'>Credit: {credit}hr</p>
                 </div>
             </div>
-            <button className="py-2 bg-[#2F80ED] rounded-lg w-full text-white">Select</button>
+            <button onClick={()=>handleBtn(cards)} className="py-2 bg-[#2F80ED] rounded-lg w-full text-white">Select</button>
         </div>
     );
 };
