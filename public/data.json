@@ -2,7 +2,7 @@
     "courses": [
       {
         "id": 1,
-        "img": "https://ibb.co/MkYcTJy",
+        "img": "https://i.ibb.co/23Dv2p0/Rectangle-2-2.png",
         "title": "Introduction to C Programming",
         "description": "Learn the fundamentals of Python programming language.",
         "credit": 1,
@@ -10,7 +10,7 @@
       },
       {
         "id": 2,
-        "img": "https://ibb.co/qMDZY18",
+        "img": "https://i.ibb.co/jv8pk4Y/Rectangle-2-3.png",
         "title": "Introduction to Algorithms",
         "description": "Build interactive websites using JavaScript and HTML/CSS.",
         "credit": 2,
@@ -18,7 +18,7 @@
       },
       {
         "id": 3,
-        "img": "https://ibb.co/8dtnMpG",
+        "img": "https://i.ibb.co/3MQ51qV/Rectangle-2-4.png",
         "title": "Introduction to C++ for DSA",
         "description": "Explore data analysis and machine learning with Python.",
         "credit": 10,
@@ -26,7 +26,7 @@
       },
       {
         "id": 4,
-        "img": "https://ibb.co/2n1DZBB",
+        "img": "https://i.ibb.co/gjL54CC/Rectangle-3.png",
         "title": "Basic Data Structures",
         "description": "Master the intricacies of C++ programming.",
         "credit": 5,
@@ -34,7 +34,7 @@
       },
       {
         "id": 5,
-        "img": "https://ibb.co/PCgTycj",
+        "img": "https://i.ibb.co/3hcfbpd/Rectangle-2.png",
         "title": "Introduction to OOP Python",
         "description": "Intensive training in full-stack web development.",
         "credit": 5,
@@ -42,7 +42,7 @@
       },
       {
         "id": 6,
-        "img": "https://ibb.co/0MqqPqV",
+        "img": "https://i.ibb.co/xjhhVh8/Rectangle-2-5.png",
         "title": "Software Engineering",
         "description": "Get started with Java programming from scratch.",
         "credit": 2,
@@ -50,7 +50,7 @@
       },
       {
         "id": 7,
-        "img": "https://ibb.co/TmqLnXb",
+        "img": "https://i.ibb.co/KFzwQZL/Rectangle-3-1.png",
         "title": "AWS, Cloud Computing",
         "description": "Learn the principles of designing user-friendly web interfaces.",
         "credit": 5,
@@ -58,7 +58,7 @@
       },
       {
         "id": 8,
-        "img": "https://ibb.co/k6swYyD",
+        "img": "https://i.ibb.co/3Y9jtsF/Rectangle-2-1.png",
         "title": "Database (MySQL)",
         "description": "Master SQL for efficient database management.",
         "credit": 5,
@@ -66,7 +66,7 @@
       },
       {
         "id": 9,
-        "img": "https://ibb.co/DKBVvCT",
+        "img": "https://i.ibb.co/nkXgYct/Rectangle-2-6.png",
         "title": "Problem-Solving Part",
         "description": "Build cross-platform mobile apps using React Native.",
         "credit": 2,
