@@ -2,10 +2,9 @@ import { useState } from "react";
 import Cards from "./cards";
 import Cart from "./cart";
 import Header from "./header";
-// import React from 'react';
-import { ToastContainer, toast } from 'react-toastify';
+
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-<ToastContainer />
 
 const Home = () => {
     const [data, setdata] = useState([]);
@@ -26,10 +25,28 @@ const Home = () => {
         });
         const ramain = 20 - credit
         if(ramain < 0){
-            return toast.success('Successfully toasted!');
+            return toast.warn('Your Credit is limited!', {
+                position: "top-center",
+                autoClose: 2000,
+                hideProgressBar: true,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+                });
         }else 
         if(exsist){
-            return toast("Wow so easy!");
+            return toast.warn('You can not Select twice!', {
+                position: "top-center",
+                autoClose: 2000,
+                hideProgressBar: true,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+                });
         }else{
             
             setTotal(total);

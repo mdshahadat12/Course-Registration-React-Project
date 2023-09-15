@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 import doller from '../assets/dollar-sign 1.png'
 import frame from '../assets/Frame.png'
+import { ToastContainer} from 'react-toastify';
+
 const Card = ({cards,handleBtn}) => {
     const {title,img,description,credit,price} = cards;
     return (
@@ -19,6 +21,7 @@ const Card = ({cards,handleBtn}) => {
                 </div>
             </div>
             <button onClick={()=>handleBtn(cards)} className="py-2 bg-[#2F80ED] rounded-lg w-full text-white">Select</button>
+            <ToastContainer />
         </div>
     );
 };
