@@ -2,6 +2,10 @@ import { useState } from "react";
 import Cards from "./cards";
 import Cart from "./cart";
 import Header from "./header";
+// import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+<ToastContainer />
 
 const Home = () => {
     const [data, setdata] = useState([]);
@@ -22,10 +26,10 @@ const Home = () => {
         });
         const ramain = 20 - credit
         if(ramain < 0){
-            return alert('limit ses')
+            return toast.success('Successfully toasted!');
         }else 
         if(exsist){
-            return alert('booked');
+            return toast("Wow so easy!");
         }else{
             
             setTotal(total);

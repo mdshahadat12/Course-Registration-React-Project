@@ -1,8 +1,8 @@
-# React + Vite
+# Project features
+- You can Select your Favourite Cource.
+- you can see Selected Cource Total Ptice.
+- you can't add twice a Cource.
+- you can't Select more than 20 Credit.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How i managed the state in my Assignment?
+- I used 5 useState in my assignment. First managed the state for the sideEfect. Then i use State for Total Price, Ramining Credit, Total Credit and pass data for child Component.

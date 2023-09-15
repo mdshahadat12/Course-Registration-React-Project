@@ -10,7 +10,7 @@ const Cart = ({data,ramain,credit,total}) => {
                 <h1 className="text-xl text-[#1C1B1B] font-bold">Course Name</h1>
                 <ol className="list-decimal m-5 text-[#1C1B1B99]">
                 {
-                    data.map(detail =>  <li key={detail.id}>{detail.title}</li>)
+                    data.length == 0? <h1>You have not select yet</h1> :data.map(detail =>  <li key={detail.id}>{detail.title}</li>)
                 }
                 </ol>
                 <hr />
